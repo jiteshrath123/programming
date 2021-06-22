@@ -11,5 +11,3 @@ end
 list.each do |row|
   puts row.join(' ')
 end
-
-sdfs
