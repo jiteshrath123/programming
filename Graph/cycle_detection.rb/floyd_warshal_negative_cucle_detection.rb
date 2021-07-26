@@ -18,7 +18,7 @@ class Graph
         for j in 0..@v-1
           @graph[i][j] = [@graph[i][j], @graph[i][k] + @graph[k][j]].min
         end
-      end  
+      end
     end
   end
 

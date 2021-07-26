@@ -33,9 +33,9 @@ v = gets.chomp.to_i
 e = gets.chomp.to_i
 graph = Graph.new(v)
 while e > 0
-    x, y, w = gets.split.map(&:to_i)
-    graph.add_new_edge(x, y, w)
-    e -= 1
+  x, y, w = gets.split.map(&:to_i)
+  graph.add_new_edge(x, y, w)
+  e -= 1
 end
 
 graph.bellman_shortest_path(v)
